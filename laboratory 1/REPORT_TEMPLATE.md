@@ -42,7 +42,10 @@ Finite automata serve as computational models capable of recognizing patterns wi
 
 Armed with a solid understanding of formal languages, grammars, and finite automata, we embark on the implementation of our language processing system. By leveraging these theoretical concepts, we aim to build a robust framework capable of generating valid strings and performing language recognition tasks.
 
+
+
 Objectives:
+
 a. Implement a type/class for your grammar;
 
 b. Add one function that would generate 5 valid strings from the language expressed by your given grammar;
@@ -52,13 +55,23 @@ c. Implement some functionality that would convert and object of type Grammar to
 d. For the Finite Automaton, please add a method that checks if an input string can be obtained via the state transition from it;
 
 Results:
+
 ba
+
 bddddba
+
 acdddbddbdbdbdbddba
+
 acddbdba
+
 aca
 
 String 'error':    False
+
 String 'ba':    True
+
 String 'aca':    True
+
 String 'abbddba':    False
+
+![img_1.png](img_1.png)

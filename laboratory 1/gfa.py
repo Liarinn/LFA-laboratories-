@@ -4,7 +4,7 @@ grammar = Grammar()
 
 fa = grammar.to_finite_automaton()
 
-tt = ["error", "ba", "aca", "abbddba"]
+tt = ["aba", "aca", "terra", "acddbdddbdddbdba"]
 i=0
 print("Generated strings based on the language:")
 for i in range(5):
