@@ -1,6 +1,6 @@
 Theory:
 
----
+------
 
 |||Background Theory|||
 
@@ -42,7 +42,7 @@ Finite automata serve as computational models capable of recognizing patterns wi
 
 Armed with a solid understanding of formal languages, grammars, and finite automata, we embark on the implementation of our language processing system. By leveraging these theoretical concepts, we aim to build a robust framework capable of generating valid strings and performing language recognition tasks.
 
-
+------------------------
 
 Objectives:
 
@@ -53,6 +53,8 @@ b. Add one function that would generate 5 valid strings from the language expres
 c. Implement some functionality that would convert and object of type Grammar to one of type Finite Automaton;
 
 d. For the Finite Automaton, please add a method that checks if an input string can be obtained via the state transition from it;
+
+------------------------
 
 Results:
 
@@ -75,3 +77,14 @@ String 'aca':    True
 String 'abbddba':    False
 
 ![img_1.png](img_1.png)
+
+------------------------
+
+Conclusions:
+
+In this laboratory, I immersed myself in the realms of formal languages and automata 
+theory, gaining insights into finite automata and grammars. Exploring conversion methods and implementation techniques 
+in Python, I solidified my understanding of these fundamental concepts. 
+Through practical exercises, I deepened my understanding of underlying algorithms and 
+gained flexibility in designing classes and methods for representing grammars and 
+automata. Armed with this knowledge, I am better prepared for further exploration into advanced topics in formal language theory.
