@@ -52,16 +52,19 @@ In the convert_to_regular_grammar method, each state's transitions are examined,
 
 In the check_if_deterministic method, it iterates over transitions and destinations to check if any symbol leads to more than one state, which indicates nondeterminism.
 
+````
 for state, rules in grammar.items():
     if rules:
         print(f"{state} -> {' | '.join(rules)}")
 
 "NDFAtoDFA" file:
+````
 
 The transformation method of DFA transforms an NFA into an equivalent DFA using the subset construction algorithm.
 
 In the transformation method of the DFA class, the algorithm iterates through subsets of states of the NFA, determining the transition for each input symbol based on the epsilon closure of the current state. It then constructs the DFA's states and transitions accordingly.
 
+````
 while unprocessed_states:
     current_state = unprocessed_states.pop()
     if current_state not in self.states:
@@ -73,7 +76,7 @@ while unprocessed_states:
                 self.transitions[current_state, input_symbol] = next_state
                 unprocessed_states.append(next_state)
 
-
+```
 
 
 
