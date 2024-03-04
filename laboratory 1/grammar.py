@@ -6,7 +6,7 @@ class Grammar:
         # Initialize the grammar variables
         self.S = "S"  # Start symbol
         self.P = {  # Production rules
-            "S": ["aB", "bD"],
+            "S": ["aB", "bB"],
             "B": ["cD"],
             "D": ["dQ", "a"],
             "Q": ["bD", "dQ"]

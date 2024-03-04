@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71886a56-b888-446a-aec7-63a81a7d3efb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laboratory 2/FiniteAutomata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory 2/NDFAtoDFA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory 2/REPORT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LFA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LFA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory 1/gfa.py" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory 1/gfa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory 1/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory 1/grammar.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dDTQkB2jWv4ZUGyIXFajgCNvuF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.FiniteAutomata.executor": "Run",
+    "Python.NDFAtoDFA.executor": "Run",
+    "Python.tes3.executor": "Run",
+    "Python.testing.executor": "Run",
+    "Python.ttt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Corina/Desktop/UTM/LFA",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71886a56-b888-446a-aec7-63a81a7d3efb" name="Changes" comment="" />
+      <created>1709541635146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709541635146</updated>
+    </task>
+    <servers />
+  </component>
+</project>
