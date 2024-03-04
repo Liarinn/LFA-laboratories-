@@ -120,5 +120,4 @@ while unprocessed_states:
 ````
 
 Represent the finite automaton graphically:
-![photo_2024-03-04_19-48-30.jpg](..%2F..%2F..%2Fphoto_2024-03-04_19-48-30.jpg)
-
+![photo_2024-03-04_19-48-30.jpg](photo_2024-03-04_19-48-30.jpg)
