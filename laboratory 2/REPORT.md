@@ -56,9 +56,50 @@ In the check_if_deterministic method, it iterates over transitions and destinati
 for state, rules in grammar.items():
     if rules:
         print(f"{state} -> {' | '.join(rules)}")
+````
+
+````
+    def chomsky_hierarchy_classification(self):
+        regular = True
+        context_free = True
+        context_sensitive = True
+        for state, rules in self.convert_to_regular_grammar().items():
+            for rule in rules:
+                # Check if any rule contains more than two symbols or a terminal symbol alone
+                if len(rule) > 2 or len(rule) == 1:
+                    regular = False
+                    context_free = False
+                    context_sensitive = False
+                    break
+                elif len(rule) == 2:
+                    if not rule[0].isupper() or not rule[1].isupper():
+                        context_free = False
+                        context_sensitive = False
+                        break
+                else:
+                    if not rule.isupper():
+                        context_sensitive = False
+                        break
+            if not regular and not context_free and not context_sensitive:
+                break
+````
+
+Initialization: Three boolean variables regular, context_free, and context_sensitive are initialized to True. These variables will be used to track the classification of the grammar.
+
+Iteration Over Rules: The method iterates over each state and its corresponding rules in the regular grammar generated from the finite automaton.
+
+Rule Analysis:
+
+For each rule:
+If the length of the rule is greater than 2 or equal to 1, it means it cannot be a regular grammar. Thus, regular, context_free, and context_sensitive are set to False, breaking the loop.
+If the length of the rule is 2, it checks whether both symbols in the rule are non-terminal (uppercase). If not, it means it cannot be a context-free grammar, and thus context_free and context_sensitive are set to False.
+If the length of the rule is exactly 1 (a terminal symbol), it cannot be a context-sensitive grammar, so context_sensitive is set to False.
+Breaking the Loop: If any of the classification checks fail (regular, context_free, or context_sensitive becomes False), the loop breaks early to save computation.
+
+Classification: Finally, based on the values of context_sensitive, context_free, and regular, the method returns the appropriate classification of the grammar based on the Chomsky hierarchy.
 
 "NDFAtoDFA" file:
-````
+
 
 The transformation method of DFA transforms an NFA into an equivalent DFA using the subset construction algorithm.
 
@@ -76,7 +117,8 @@ while unprocessed_states:
                 self.transitions[current_state, input_symbol] = next_state
                 unprocessed_states.append(next_state)
 
-```
+````
 
-
+Represent the finite automaton graphically:
+![photo_2024-03-04_19-48-30.jpg](..%2F..%2F..%2Fphoto_2024-03-04_19-48-30.jpg)
 
