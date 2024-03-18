@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71886a56-b888-446a-aec7-63a81a7d3efb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laboratory 3/REPORT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.FiniteAutomata.executor": "Run",
+    "Python.Lexer.executor": "Run",
     "Python.NDFAtoDFA.executor": "Run",
     "Python.tes3.executor": "Run",
     "Python.test.executor": "Run",
@@ -44,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Corina/Desktop/UTM/pythonProject/lab2",
+    "last_opened_file_path": "C:/Users/Corina/Desktop/UTM/LFA",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
