@@ -2,13 +2,15 @@ THEORY:
 
 The term lexer comes from lexical analysis which, in turn, represents the process of extracting lexical tokens from a string of characters. There are several alternative names for the mechanism called lexer, for example tokenizer or scanner. The lexical analysis is one of the first stages used in a compiler/interpreter when dealing with programming, markup or other types of languages.     The tokens are identified based on some rules of the language and the products that the lexer gives are called lexemes. So basically the lexer is a stream of lexemes. Now in case it is not clear what's the difference between lexemes and tokens, there is a big one. The lexeme is just the byproduct of splitting based on delimiters, for example spaces, but the tokens give names or categories to each lexeme. So the tokens don't retain necessarily the actual value of the lexeme, but rather the type of it and maybe some metadata.
 
-
+\
 OBJECTIVES:
 
 1.Understand what lexical analysis [1] is.
 2.Get familiar with the inner workings of a lexer/scanner/tokenizer.
 3.Implement a sample lexer and show how it works.
 
+
+\
 IMPLEMENTATION:
 
 ```
@@ -87,5 +89,11 @@ This method is the main function of the lexer. It iterates over the input text c
 Then, it checks if the current character represents an identifier, a number, a comment, or an operator. If it encounters an unknown character, it simply skips over it.
 Finally, it returns the next token found in the input text.
 
+\
+CONCLUSION:
+
+In conclusion, the lexer implemented here effectively breaks down input text into tokens, facilitating the parsing process in language processing tasks. By categorizing characters into tokens such as identifiers, numbers, operators, and keywords, the lexer lays the foundation for syntactic analysis and subsequent interpretation or compilation. Through methods like `get_next_token`, it systematically iterates through the input text, identifying each token type and extracting relevant information. Additionally, the lexer employs methods like `skip_whitespace` to handle whitespace characters and `advance` to progress through the input text character by character, ensuring thorough and accurate tokenization.
+
+Overall, the lexer plays a crucial role in language processing pipelines, serving as the initial stage in transforming raw text into structured data for further analysis or execution. Its ability to recognize and categorize tokens enables efficient parsing and subsequent semantic analysis, contributing to the development of robust compilers, interpreters, and other language processing tools. With a well-designed lexer like the one made by me, language processing tasks can proceed smoothly, paving the way for the effective implementation of various programming languages and domain-specific languages.
 
 
