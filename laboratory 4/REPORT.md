@@ -11,10 +11,10 @@ Understanding regular expressions is a valuable skill for software developers, d
 \
 **Objectives:**
 
-Explain the concept and uses of regular expressions.
-Generate valid combinations of symbols conforming to given regular expressions.
-Limit the number of occurrences of symbols to 5 to prevent excessively long combinations.
-Bonus: Develop a function to show the sequence of processing a regular expression.
+-Explain the concept and uses of regular expressions.\
+-Generate valid combinations of symbols conforming to given regular expressions.\
+-Limit the number of occurrences of symbols to 5 to prevent excessively long combinations.\
+-Bonus: Develop a function to show the sequence of processing a regular expression.\
 
 \
 **Implementation Description:**
