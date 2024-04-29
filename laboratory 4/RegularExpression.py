@@ -42,6 +42,8 @@ def generate_combinations(regex):
                 elif char.isalnum() and regex[i + 2] == '*' :
                     combination += char * random.randint(0, 5)
                     # print(combination, "By 6  ")
+                if regex[i + 1] == '^' and regex[i + 2].isnumeric():
+                    po = int(regex[i + 2])
             elif char.isalnum() and regex[i + 1] == '?':
                 combination += char if random.choice([True, False]) else ''
                 # print(combination, "By 7  ")
@@ -53,14 +55,12 @@ def process_sequence(regex):
     sequence = []
     for char in regex:
         if char == '(':
-            sequence.append("Start processing group")
+            sequence.append("Start selecting eligible characters from group")
         elif char == ')':
-            sequence.append("End processing group")
+            sequence.append("Select random character from the group group")
         elif char in ['|']:
-            sequence.append("Start processing alternate")
-            sequence.append("End processing alternate")
+            sequence.append("Processing alternate or")
         elif char == '^':
-            sequence.append("End of sequence")
             sequence.append("Start of sequence")
         elif char == '*':
             sequence.append("Zero or more occurrences")
