@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71886a56-b888-446a-aec7-63a81a7d3efb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/laboratory 5/REPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory 5/UnitTests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory 5/chomskyNormalForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laboratory 5/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory 6/PERORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laboratory 6/Parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory 4/REPORT.md" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory 4/REPORT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory 4/RegularExpression.py" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory 4/RegularExpression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +40,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Python tests in UnitTests.py.executor": "Run",
     "Python.FiniteAutomata.executor": "Run",
     "Python.Lexer.executor": "Run",
     "Python.NDFAtoDFA.executor": "Run",
+    "Python.Parser.executor": "Run",
     "Python.RegularExpression.executor": "Run",
     "Python.chomskyNormalForm.executor": "Run",
     "Python.main.executor": "Run",
@@ -56,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Corina/Desktop/UTM/LFA",
+    "last_opened_file_path": "C:/Users/Corina/Desktop/UTM/demo",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
